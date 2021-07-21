@@ -1,0 +1,112 @@
+
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('../../images/pattern-curve.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* testimonials section */
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-testimonial {
+  order: 2;
+  background-image: url('../../images/pattern-quotes.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 20%;
+  font-size: 1.8rem;
+  padding: 3.2rem;
+  text-align: center;
+  font-family: inherit;
+}
+
+.username {
+  margin-top: 1.9rem;
+  font-size: 1.5rem;
+}
+
+.profession {
+  display: block;
+  color: #b9b9ce;
+}
+
+.image-container {
+  position: relative;
+  background-image: url('../../images/pattern-bg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 3.2rem;
+}
+
+.slider-image {
+  max-height: 25rem;
+  max-width: 25rem;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+.slider-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 2.8rem;
+}
+
+.btn {
+  display: inline;
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  background-color: transparent;
+}
+
+
+
+/* attribution */
+
+.attribution { 
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center; 
+  width: 100%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
