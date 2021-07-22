@@ -91,6 +91,7 @@ main {
   background-color: #fff;
   overflow: hidden;
   border-radius: 2.8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 
 .btn {
@@ -209,6 +210,10 @@ main {
     font-family: inherit;
     max-width: 63.5rem;
     left: 10%;
+  }
+
+  .slider-arrows {
+    bottom: 8rem;
   }
 
   .profession {
